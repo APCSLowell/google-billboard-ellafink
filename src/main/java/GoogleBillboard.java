@@ -6,7 +6,7 @@ public class GoogleBillboard {
 		System.out.println ("Not the right string, tests will fail!");
 	}
 	
-	public boolean isPrime(){
+	public static boolean isPrime(double num){
 		if(num<2)
     			return false;
   		for(int i = 2; i<=Math.sqrt(num); i++){
