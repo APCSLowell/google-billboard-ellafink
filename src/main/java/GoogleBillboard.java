@@ -6,8 +6,6 @@ public class GoogleBillboard {
 		return "Not the right string, tests will fail!";
 	}
 	
-
-	//Finish this function
 	public boolean isPrime(){
 		if(num<2)
     			return false;
